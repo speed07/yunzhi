@@ -17,4 +17,4 @@
 .codz-genre li a[title~=Sci-Fi]:before{background-image:url("https://1.bp.blogspot.com/-KPQ40fPZeUw/XZIr_rlGDDI/AAAAAAAABYk/qA2zzV82VVI_ER2ED9kNbfcymW6WNoAEQCLcBGAsYHQ/s1600/genre7.jpg");}
 .codz-genre li a[title~=Supernatural]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
 .codz-genre li a[title~=Wuxia]:before{background-image:url("https://1.bp.blogspot.com/-mwll-1Wd_EA/XZIlugEfqvI/AAAAAAAABYA/Vb9_05mq1TIRgFk8ti08JPQMkyFCfM9UACLcBGAsYHQ/s1600/genres2.png");}
-@media only screen and (max-width:640px){.codz-genre li{float:none;width:100%}.codz-genre li a{padding:11px}}
+@media only screen and (max-width:640px){.codz-genre li{float:none;width:95%}.codz-genre li a{padding:11px}}
