@@ -1,0 +1,21 @@
+.yuukithemes-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px}
+.yuukithemes-genre ul{list-style:none;margin:0 -5px;padding:0}
+.yuukithemes-genre ul:after{content:"";display:block;clear:both}
+.yuukithemes-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
+.yuukithemes-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;filter:grayscale(1) opacity(.6);z-index:10}
+.yuukithemes-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
+.yuukithemes-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
+.yuukithemes-genre li a span{display:block;position:relative;z-index:12;}
+.yuukithemes-genre li a[title~=Action]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Adventure]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Comedy]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Ecchi]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Hareem]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Romance]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=School]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Sci-Fi]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Slice-of-Life]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.yuukithemes-genre li a[title~=Super-Power]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+@media screen and (max-width:480px){
+.yuukithemes-genre li{float:none;width:100%}.yuukithemes-genre li a{padding:11px}
+}
