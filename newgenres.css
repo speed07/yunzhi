@@ -3,7 +3,7 @@
 .codz-genre ul{list-style:none;margin:0 auto;padding:0}
 .codz-genre ul:after{content:"";display:block;clear:both}
 .codz-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
-.codz-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;filter:grayscale(1) opacity(.6);z-index:10}
+.codz-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;z-index:10}
 .codz-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
 .codz-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
 .codz-genre li a span{display:block;position:relative;z-index:12;}
