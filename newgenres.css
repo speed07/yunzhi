@@ -2,7 +2,7 @@
 .codz-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px}
 .codz-genre ul{list-style:none;margin:0 auto;padding:0}
 .codz-genre ul:after{content:"";display:block;clear:both}
-.codz-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700;text-shadow: 2px 2px #2f2b2b;}
+.codz-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700;text-shadow: 2px 2px #2f2b2b;text-decoration:none;}
 .codz-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;z-index:10}
 .codz-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
 .codz-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
@@ -17,4 +17,4 @@
 .codz-genre li a[title~=Sci-Fi]:before{background-image:url("https://1.bp.blogspot.com/-KPQ40fPZeUw/XZIr_rlGDDI/AAAAAAAABYk/qA2zzV82VVI_ER2ED9kNbfcymW6WNoAEQCLcBGAsYHQ/s1600/genre7.jpg");}
 .codz-genre li a[title~=Supernatural]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
 .codz-genre li a[title~=Wuxia]:before{background-image:url("https://1.bp.blogspot.com/-mwll-1Wd_EA/XZIlugEfqvI/AAAAAAAABYA/Vb9_05mq1TIRgFk8ti08JPQMkyFCfM9UACLcBGAsYHQ/s1600/genres2.png");}
-@media only screen and (max-width:640px){.codz-genre li{float:none;width:95%}.codz-genre li a{padding:11px}}
+@media only screen and (max-width:640px){.codz-genre li{float:none;width:100%;height: auto;}.codz-genre li a{padding:11px}}
