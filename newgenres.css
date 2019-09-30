@@ -1,0 +1,20 @@
+.codz-genre {overflow: auto;width: 100%;height: 350px;}
+.codz-genre li{float:left;width:calc(50% - 6px);text-align:center;position:relative;margin:3px}
+.codz-genre ul{list-style:none;margin:0 auto;padding:0}
+.codz-genre ul:after{content:"";display:block;clear:both}
+.codz-genre li a{display:block;color:#fff;z-index:10;position:relative;padding:9px;font-weight:700}
+.codz-genre li a:before{content:"";position:absolute;background:#353638 center no-repeat;background-size:100%;top:0;left:0;width:100%;height:100%;border-radius:4px;filter:grayscale(1) opacity(.6);z-index:10}
+.codz-genre li a:after{content:"";position:absolute;background:#000;width:100%;height:100%;top:0;left:0;z-index:5;border-radius:4px}
+.codz-genre li a:hover:before{filter:grayscale(0) opacity(.7)}
+.codz-genre li a span{display:block;position:relative;z-index:12;}
+.codz-genre li a[title~=Action]:before{background-image:url("https://1.bp.blogspot.com/-hn_dSaJuVgc/XZItNtRNdTI/AAAAAAAABZA/BFi_XFY5jHAXQSuDerX713kC485f-c-AQCLcBGAsYHQ/s1600/genre10.jpg");}
+.codz-genre li a[title~=Adventure]:before{background-image:url("https://1.bp.blogspot.com/-I5FCpbG0X1c/XZIsAQEM4wI/AAAAAAAABYs/NgMgyU0CxT07858xLuwGenAM8MMGy7mNQCLcBGAsYHQ/s1600/genre8.jpg");}
+.codz-genre li a[title~=Demons]:before{background-image:url("https://1.bp.blogspot.com/-zE1c-aZWeRc/XZIsArnchgI/AAAAAAAABYw/hndu8Z8gQboyEW_GmxWBPSAVDDGrxEJggCLcBGAsYHQ/s1600/genre9.jpg");}
+.codz-genre li a[title~=Ecchi]:before{background-image:url("https://1.bp.blogspot.com/-XsI3RSCgIpY/XZIr_WJCaQI/AAAAAAAABYg/1Yu_R4ChH-Id1wTytQzYqn47ttQUe-4IQCLcBGAsYHQ/s1600/genre6.jpg");}
+.codz-genre li a[title~=Fantasy]:before{background-image:url("https://1.bp.blogspot.com/-lxapEAtjHYQ/XZIr6qgbAWI/AAAAAAAABYc/HFRxpOIJJlAymMnWrjK72OeVvYaqq3C3gCLcBGAsYHQ/s1600/genre4.jpg");}
+.codz-genre li a[title~=Martial-Arts]:before{background-image:url("https://1.bp.blogspot.com/-khkU4qbR0Pc/XZIl7OunmuI/AAAAAAAABYE/a55uueCpQcU5n4GpVFNobAGz59A971wUwCLcBGAsYHQ/s1600/genres3.jpg");}
+.codz-genre li a[title~=Romance]:before{background-image:url("https://1.bp.blogspot.com/-7UQv4KBBhms/XZIr_s3oGGI/AAAAAAAABYo/ieRvKq75mlUO8Y85jfMAPMSdlzpS0qtFQCLcBGAsYHQ/s1600/genre5.jpg");}
+.codz-genre li a[title~=Sci-Fi]:before{background-image:url("https://1.bp.blogspot.com/-KPQ40fPZeUw/XZIr_rlGDDI/AAAAAAAABYk/qA2zzV82VVI_ER2ED9kNbfcymW6WNoAEQCLcBGAsYHQ/s1600/genre7.jpg");}
+.codz-genre li a[title~=Supernatural]:before{background-image:url("https://1.bp.blogspot.com/-gpj7YDk-lvU/XZGr9xkrJYI/AAAAAAAABXo/u10GGZx-LJM33-84T5snat2gx2snZ2rHQCLcBGAsYHQ/s1600/genres%2B1.jpeg");}
+.codz-genre li a[title~=Wuxia]:before{background-image:url("https://1.bp.blogspot.com/-mwll-1Wd_EA/XZIlugEfqvI/AAAAAAAABYA/Vb9_05mq1TIRgFk8ti08JPQMkyFCfM9UACLcBGAsYHQ/s1600/genres2.png");}
+@media only screen and (max-width:640px){.codz-genre li{float:none;width:100%}.codz-genre li a{padding:11px}}
